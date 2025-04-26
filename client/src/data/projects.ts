@@ -1,5 +1,21 @@
 export const projectsData = [
   {
+    title: "Data Analysis Project - Shark Tank",
+    description: "Comprehensive analysis of Shark Tank investment trends, success rates, and entrepreneur demographics using data visualization techniques.",
+    tags: ["Python", "Pandas", "Data Visualization", "Statistical Analysis"],
+    github: "https://github.com",
+    demo: "https://demo-link.com",
+    icon: "fa-chart-bar"
+  },
+  {
+    title: "Data Analysis Project - Super Market",
+    description: "In-depth analysis of supermarket sales data, customer behavior patterns, and product performance metrics to identify business optimization opportunities.",
+    tags: ["Python", "Data Analysis", "Matplotlib", "NumPy"],
+    github: "https://github.com",
+    demo: "https://demo-link.com",
+    icon: "fa-shopping-cart"
+  },
+  {
     title: "AI-Powered Task Manager",
     description: "A smart to-do application that uses natural language processing to categorize and prioritize tasks automatically.",
     tags: ["Python", "Flask", "React", "NLP"],
@@ -10,25 +26,9 @@ export const projectsData = [
   {
     title: "Stock Market Analyzer",
     description: "Data visualization tool that analyzes historical stock data and predicts potential market trends using ML algorithms.",
-    tags: ["Python", "TensorFlow", "Pandas", "D3.js"],
+    tags: ["Python", "Pandas", "Data Analysis", "Visualization"],
     github: "https://github.com",
     demo: "https://demo-link.com",
     icon: "fa-chart-line"
-  },
-  {
-    title: "Campus Connect App",
-    description: "Mobile application that helps college students find study groups, events, and resources on campus.",
-    tags: ["React Native", "Firebase", "Node.js", "Express"],
-    github: "https://github.com",
-    demo: "https://demo-link.com",
-    icon: "fa-mobile-alt"
-  },
-  {
-    title: "E-Commerce Recommendation Engine",
-    description: "AI-powered product recommendation system for e-commerce websites based on user behavior and preferences.",
-    tags: ["Python", "Django", "ML", "PostgreSQL"],
-    github: "https://github.com",
-    demo: "https://demo-link.com",
-    icon: "fa-robot"
   }
 ];

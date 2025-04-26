@@ -3,45 +3,30 @@ export const skillsData = [
     title: "Programming Languages",
     icon: "fa-code",
     skills: [
-      { name: "Python", level: 90 },
-      { name: "Java", level: 85 },
-      { name: "C/C++", level: 80 },
-      { name: "JavaScript", level: 75 }
+      { name: "Python", level: 0 },
+      { name: "Java", level: 0 }
     ]
   },
   {
-    title: "Web Technologies",
-    icon: "fa-globe",
+    title: "Technical Interests",
+    icon: "fa-laptop-code",
     skills: [
-      { name: "HTML5", level: 95 },
-      { name: "CSS3/SCSS", level: 85 },
-      { name: "React", level: 80 },
-      { name: "Node.js", level: 75 }
+      { name: "Data Analytics", level: 95 },
+      { name: "Web Development", level: 75 },
+      { name: "Data Structures and Algorithms", level: 70 }
     ]
   },
   {
     title: "Tools & Technologies",
     icon: "fa-tools",
     skills: [
-      { name: "Git & GitHub", level: 90 },
-      { name: "Data Structures", level: 85 },
-      { name: "Algorithms", level: 80 },
-      { name: "Machine Learning", level: 70 }
+      { name: "Git & GitHub", level: 0 },
+      { name: "SQL", level: 0 },
+      { name: "Pandas", level: 0 },
+      { name: "Excel", level: 0 }
     ]
   }
 ];
 
 export const otherSkills = [
-  "MongoDB",
-  "Express.js",
-  "Flask",
-  "Django",
-  "SQL",
-  "Redux",
-  "Tailwind CSS",
-  "TensorFlow",
-  "PyTorch",
-  "AWS",
-  "Docker",
-  "Pandas"
 ];

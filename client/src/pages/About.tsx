@@ -47,27 +47,26 @@ const About = () => {
               algorithm design, and creating meaningful applications.
             </p>
             <p className="text-lg leading-relaxed">
-              When I'm not coding or studying, you can find me participating in hackathons, 
-              contributing to open-source projects, or exploring new technologies through online courses and workshops.
+              When I'm not coding, you'll often find me reading thrillers, exploring new tech trends, or participating in coding challenges. I also have a deep interest in finance and business analytics. I enjoy learning about financial markets, investing strategies, and how technology is reshaping the financial world.
             </p>
             
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div>
                 <h3 className="text-lg font-semibold mb-2">Education</h3>
                 <p>BTech in Computer Science</p>
-                <p className="text-gray-500">2022 - 2026</p>
+                <p className="text-gray-500">2023 - 2027</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Location</h3>
-                <p>City, Country</p>
+                <p>Delhi, India</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Languages</h3>
-                <p>English, Hindi</p>
+                <p>Hindi, English, French, Norwegian</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Interests</h3>
-                <p>AI, Web Dev, Competitive Coding</p>
+                <p>AI, Automation, Data Analytics And Web Dev</p>
               </div>
             </div>
           </motion.div>
