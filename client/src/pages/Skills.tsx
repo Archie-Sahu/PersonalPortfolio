@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import SectionTitle from '@/components/SectionTitle';
 import ProgressBar from '@/components/ProgressBar';
+import SkillList from '@/components/SkillList';
 import { skillsData, otherSkills } from '@/data/skills';
 
 const Skills = () => {
@@ -63,9 +64,12 @@ const Skills = () => {
               </div>
               
               <div className="space-y-4">
-                {category.skills.map((skill, idx) => (
+                {category.type === 'progress' && category.skills && category.skills.map((skill, idx) => (
                   <ProgressBar key={idx} label={skill.name} percentage={skill.level} />
                 ))}
+                {category.type === 'list' && category.listSkills && (
+                  <SkillList skills={category.listSkills} />
+                )}
               </div>
             </motion.div>
           ))}

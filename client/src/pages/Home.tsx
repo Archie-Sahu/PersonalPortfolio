@@ -38,9 +38,9 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            {/* Profile Image Placeholder */}
-            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl relative bg-gradient-to-br from-secondary to-accent flex items-center justify-center">
-              <i className="fas fa-user text-white text-6xl"></i>
+            {/* Profile Image */}
+            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl relative">
+              <img src={profileImage} alt="Archie Sahu" className="w-full h-full object-cover" />
             </div>
           </motion.div>
         </div>

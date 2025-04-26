@@ -1,15 +1,28 @@
-export const skillsData = [
+// Define types for our skill data
+interface ProgressSkill {
+  name: string;
+  level: number;
+}
+
+interface SkillCategory {
+  title: string;
+  icon: string;
+  type: 'progress' | 'list';
+  skills?: ProgressSkill[];
+  listSkills?: string[];
+}
+
+export const skillsData: SkillCategory[] = [
   {
     title: "Programming Languages",
     icon: "fa-code",
-    skills: [
-      { name: "Python", level: 0 },
-      { name: "Java", level: 0 }
-    ]
+    type: "list",
+    listSkills: ["Python", "Java"]
   },
   {
     title: "Technical Interests",
     icon: "fa-laptop-code",
+    type: "progress",
     skills: [
       { name: "Data Analytics", level: 95 },
       { name: "Web Development", level: 75 },
@@ -19,12 +32,8 @@ export const skillsData = [
   {
     title: "Tools & Technologies",
     icon: "fa-tools",
-    skills: [
-      { name: "Git & GitHub", level: 0 },
-      { name: "SQL", level: 0 },
-      { name: "Pandas", level: 0 },
-      { name: "Excel", level: 0 }
-    ]
+    type: "list",
+    listSkills: ["Git & GitHub", "SQL", "Pandas", "Excel"]
   }
 ];
 
