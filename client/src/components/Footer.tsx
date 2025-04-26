@@ -29,13 +29,13 @@ const Footer = () => {
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
               <i className="fab fa-github"></i>
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/archie-sahu-1b3b47280" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <i className="fab fa-linkedin"></i>
             </a>
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            <a href="mailto:archiesahu19@gmail.com" className="text-gray-400 hover:text-white transition-colors">
               <i className="fas fa-envelope"></i>
             </a>
           </div>

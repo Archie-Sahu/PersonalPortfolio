@@ -118,7 +118,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium">LinkedIn</h4>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors">linkedin.com/in/username</a>
+                  <a href="https://www.linkedin.com/in/archie-sahu-1b3b47280" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors">linkedin.com/in/archie-sahu-1b3b47280</a>
                 </div>
               </div>
               
@@ -136,14 +136,14 @@ const Contact = () => {
             <div className="mt-12">
               <h3 className="text-2xl font-semibold mb-6">Social Media</h3>
               <div className="flex space-x-4">
-                <a href="#" className="w-12 h-12 bg-primary/10 text-primary hover:bg-primary hover:text-white rounded-lg flex items-center justify-center transition-colors">
-                  <i className="fab fa-twitter"></i>
+                <a href="https://www.linkedin.com/in/archie-sahu-1b3b47280" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-primary/10 text-primary hover:bg-primary hover:text-white rounded-lg flex items-center justify-center transition-colors">
+                  <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="#" className="w-12 h-12 bg-primary/10 text-primary hover:bg-primary hover:text-white rounded-lg flex items-center justify-center transition-colors">
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a href="#" className="w-12 h-12 bg-primary/10 text-primary hover:bg-primary hover:text-white rounded-lg flex items-center justify-center transition-colors">
-                  <i className="fab fa-dev"></i>
+                  <i className="fab fa-github"></i>
                 </a>
                 <a href="#" className="w-12 h-12 bg-primary/10 text-primary hover:bg-primary hover:text-white rounded-lg flex items-center justify-center transition-colors">
                   <i className="fab fa-medium"></i>
