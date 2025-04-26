@@ -28,8 +28,8 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50 py-4 transition-all duration-300 ${scrolled ? 'shadow-md' : ''}`}>
-      <div className="container mx-auto px-4 flex justify-between items-center">
-        <a href="#home" className="text-2xl font-bold font-inter text-primary" onClick={handleLinkClick}>
+      <div className="container mx-auto px-8 md:px-12 flex justify-between items-center">
+        <a href="#home" className="text-2xl font-bold font-inter text-primary ml-[-20px]" onClick={handleLinkClick}>
           <span className="text-foreground">Port</span>folio
         </a>
         
@@ -65,7 +65,7 @@ const Navbar = () => {
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
           >
-            <div className="container mx-auto px-4 py-3 flex flex-col space-y-3">
+            <div className="container mx-auto px-8 py-3 flex flex-col space-y-3">
               <a href="#home" className="py-2 font-medium hover:text-primary transition-colors" onClick={handleLinkClick}>Home</a>
               <a href="#about" className="py-2 font-medium hover:text-primary transition-colors" onClick={handleLinkClick}>About</a>
               <a href="#skills" className="py-2 font-medium hover:text-primary transition-colors" onClick={handleLinkClick}>Skills</a>
