@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import profileImage from '../assets/profile-placeholder.svg';
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-inter mb-4 text-foreground">
-              Hello, I'm <span className="text-primary">Name</span>
+              Hello, I'm <span className="text-primary">Archie Sahu</span>
             </h1>
             <h2 className="text-xl md:text-2xl font-medium text-gray-500 mb-6">
               On a Journey to Build, Learn, and Impact
