@@ -39,12 +39,12 @@ const Home = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             {/* Profile Image */}
-            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl relative">
+            <div className="w-64 h-80 md:w-80 md:h-96 rounded-xl overflow-hidden border-4 border-white shadow-2xl relative">
               <img 
                 src={profileImage} 
                 alt="Archie Sahu" 
-                className="w-full h-full object-cover" 
-                style={{ objectPosition: "center 30%" }}
+                className="w-full h-full" 
+                style={{ objectFit: "cover" }}
               />
             </div>
           </motion.div>
