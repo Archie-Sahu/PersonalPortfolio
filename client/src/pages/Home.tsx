@@ -44,7 +44,7 @@ const Home = () => {
                 src={profileImage} 
                 alt="Archie Sahu" 
                 className="w-full h-full object-cover" 
-                style={{ objectPosition: "center 20%", transform: "scale(1.15)" }}
+                style={{ objectPosition: "center 30%" }}
               />
             </div>
           </motion.div>
